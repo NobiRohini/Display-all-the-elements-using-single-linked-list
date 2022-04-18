@@ -1,0 +1,11 @@
+Write a function to display all the elements in the single linked list...?
+Sol: void display()
+{
+struct node*ptr;
+ptr=start;
+while(ptr!=NULL)
+{
+printf("%d...>",ptr->data);
+ptr=ptr->next;
+}
+}
